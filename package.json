@@ -21,10 +21,10 @@
     "typescript": "~5.4.5"
   },
   "dependencies": {
-    "@aws-sdk/client-bedrock": "^3.609.0",
-    "@aws-sdk/client-bedrock-runtime": "^3.609.0",
-    "@aws-sdk/client-transcribe": "^3.609.0",
-    "@aws-sdk/client-transcribe-streaming": "^3.609.0",
+    "@aws-sdk/client-bedrock": "^3.624.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.624.0",
+    "@aws-sdk/client-transcribe": "^3.624.0",
+    "@aws-sdk/client-transcribe-streaming": "^3.624.0",
     "@aws-sdk/node-http-handler": "^3.374.0",
     "aws-cdk-lib": "2.139.1",
     "constructs": "^10.0.0",
