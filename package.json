@@ -1,0 +1,48 @@
+{
+  "name": "simultaneous-interpretation-jam",
+  "version": "0.1.0",
+  "bin": {
+    "simultaneous-interpretation-jam": "bin/simultaneous-interpretation-jam.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk",
+    "start": "node app/index.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "20.12.7",
+    "aws-cdk": "2.139.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.4.5"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock": "^3.609.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.609.0",
+    "@aws-sdk/client-transcribe": "^3.609.0",
+    "@aws-sdk/client-transcribe-streaming": "^3.609.0",
+    "@aws-sdk/node-http-handler": "^3.374.0",
+    "aws-cdk-lib": "2.139.1",
+    "constructs": "^10.0.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "google-tts-api": "^2.0.2",
+    "install": "^0.13.0",
+    "mic": "^2.1.2",
+    "npm": "^10.8.1",
+    "source-map-support": "^0.5.21",
+    "websocket": "^1.0.35",
+    "ws": "^8.18.0"
+  },
+  "description": "This is a blank project for CDK development with TypeScript.",
+  "main": "jest.config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
