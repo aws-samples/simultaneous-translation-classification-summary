@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/voc-artifacts.css",
+    "main.js": "/voc-artificats.js",
+    "voc-artificats.chunk.js": "/voc-artificats.chunk.js",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "voc-artifacts.css.map": "/voc-artifacts.css.map",
+    "voc-artificats.js.map": "/voc-artificats.js.map",
+    "voc-artificats.chunk.js.map": "/voc-artificats.chunk.js.map"
+  },
+  "entrypoints": [
+    "voc-artifacts.css",
+    "voc-artificats.js"
+  ]
+}
